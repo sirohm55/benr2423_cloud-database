@@ -1,0 +1,14 @@
+POST http://localhost:3000/login
+Content-Type: application/json  
+
+{
+    "username": "tan",
+    "password": "12344",
+
+    //"username": "nick",
+    //"password": 36554
+}
+
+#####
+
+get http://localhost:3000/bye/acc
