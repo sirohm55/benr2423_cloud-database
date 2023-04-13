@@ -1,14 +1,15 @@
 {
   "name": "week4",
   "version": "1.0.0",
-  "description": "",
-  "main": "week4_lecture_1.js",
+  "main": "week4_lecture_2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "description": ""
 }

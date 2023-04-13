@@ -2,8 +2,8 @@ POST http://localhost:3000/login
 Content-Type: application/json  
 
 {
-    "username": "tan",
-    "password": "12344",
+    "username": "nick",
+    "password": "36554"
 
     //"username": "nick",
     //"password": 36554
@@ -11,4 +11,17 @@ Content-Type: application/json
 
 #####
 
-get http://localhost:3000/bye/acc
+POST http://localhost:3000/register
+Content-Type: application/json  
+
+{
+    "UN": "Zie",
+    "PS": "663344",
+    "NM": "khoo",
+    "EM": "khoozp33@gmail.com"
+}
+
+###
+
+get http://localhost:3000/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pY2siLCJwYXNzd29yZCI6IjM2NTU0IiwibmFtZSI6Im5pY29sYXMgU2lpIFRpbmcgS2llIiwiZW1haWwiOiJuaWNrb2xhc0B5YWhvby5jb20iLCJpYXQiOjE2ODEzNzExMzUsImV4cCI6MTY4MTM3NDczNX0.DtSqLl-3WGo4sGAhdaevS8kP9h6OrQgKVeGUIJnFGW4
